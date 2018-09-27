@@ -1,0 +1,12 @@
+[header]
+alg = "ES256"
+kid = "YourAppleMusicKid"
+
+[playload]
+iss = "YourTeamId"
+iat = 1537441817
+exp = 1537441817
+
+[apple]
+teamid = "YourTeamId"
+privatekey = "/where/your/apple/music/privatekey.p8"
